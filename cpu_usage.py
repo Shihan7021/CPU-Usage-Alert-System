@@ -5,16 +5,16 @@ import cv2
 import numpy as np
 
 # Twilio account SID, auth token, and phone numbers
-twilio_account_sid = "AC2d40b0b386789878e4c27199e2f7fd71"
-twilio_auth_token = "39c941f556c42daa438f07a56a6c16a6"
-twilio_phone_number = "+18156714196"
-recipient_phone_number = "+94777328858"
+twilio_account_sid = "Your Twilio Account SID"
+twilio_auth_token = "Your Twilio auth code"
+twilio_phone_number = "Twilio Phone Number"
+recipient_phone_number = "Receiver Number"
 
 # Set the CPU usage threshold for alerting (adjust as needed)
-cpu_threshold = 30.0
+cpu_threshold = 90.0
 
 # Set the exit password
-exit_password = "exit123"
+exit_password = "exit987"
 
 # Function to send SMS alert
 def send_sms_alert(body):
